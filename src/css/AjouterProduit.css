@@ -1,0 +1,30 @@
+/* Ajoute de l'espace entre les lignes */
+.FormGroup {
+    margin-bottom: 20px;
+  }
+  
+  /* Centre le formulaire */
+  .Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Modifie l'apparence du bouton Ajouter */
+  .Button[type="submit"] {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Modifie la couleur du texte et des bordures des champs */
+  .FormControl {
+    color: #495057;
+    border-color: #80bdff;
+  }
+  
+  /* Modifie la couleur du texte des labels */
+  .FormLabel {
+    color: #007bff;
+  }
+  
