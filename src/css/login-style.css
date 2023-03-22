@@ -1,0 +1,99 @@
+html,
+body,
+.intro {
+  height: 100%;
+}
+
+@media (min-width: 560px) and (max-width: 750px) {
+  html,
+  body,
+  .intro {
+    height: 830px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .intro {
+    height: 830px;
+  }
+}
+
+.login-style {
+  background-color: #8bc34a;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.login-style:hover {
+  box-shadow: 0 8px 9px -4px rgba(139, 195, 74, .3), 0 4px 18px 0 rgba(139, 195, 74, .2);
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: rgba(17, 101, 48, 1);
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom, rgba(17, 101, 48, 1), rgba(17, 101, 48, 1), rgba(17, 101, 48, 1)); /* rgba(139, 195, 74, 1), rgba(75, 130, 13, 1), */
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, rgba(17, 101, 48, 1), rgba(17, 101, 48, 1), rgba(17, 101, 48, 1));  
+}
+
+.forgot {
+    float: right;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  /* margin-top: 166px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.centered {
+  top: 40%;
+}
+
+.input {
+  background-color: transparent;
+  border-color: white;
+}
+
+.button {
+  background-color: white;
+  color: rgba(17, 101, 48, 1);
+}
+
+.button:hover {
+  box-shadow: 0 8px 9px -4px hsla(0,0%,98.4%,.3), 0 4px 18px 0 hsla(0,0%,98.4%,.2);
+  background-color: #fff;
+}
+
+button.btn.btn-white.btn-rounded.px-5.button.mb-3 {
+  border-radius: 3em;
+}
+
+button.btn.btn-success.btn-rounded.btn-lg.gradient-custom-4.px-5.text-white {
+  border-radius: 3em;
+}
+
+Link {
+  color: white;
+}
+
+.bottom {
+  margin-bottom: 32px;
+}

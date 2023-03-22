@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Untree.co">
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap4" />  
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/jquery-ui.css">
+    <link rel="stylesheet" href="src/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="src/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="src/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="src/css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="src/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="src/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="src/css/aos.css">
+    <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="icon" type="image/svg+xml" href="/public/tractor.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mihary Market - Page d'accueil</title>
+  </head>
+  
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    <button onclick="topFunction()" id="myBtn" title="Haut de page">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="site-wrap">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+      
+      <div class="header-top bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-6 col-lg-3">
+              <a href="index.html" class="logo">
+                <img src="mihary_logo.png" alt="Image" width="50%" class="img-fluid"/>
+              </a>
+            </div>
+            <div class="col-lg-3 d-none d-lg-block">
+              <div class="quick-contact-icons d-flex align-items-center">
+                <div class="icon align-self-center mt-3">
+                  <span class="icon-room text-primary"></span>
+                </div>
+                <div class="text">
+                  <span class="h4 d-block">Antananarivo</span>
+                  <span class="caption-text">Faravohitra</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 d-none d-lg-block">
+              <div class="quick-contact-icons d-flex align-items-center">
+                <div class="icon align-self-center mt-3">
+                  <span class="icon-phone text-primary"></span>
+                </div>
+                <div class="text">
+                  <span class="h4 d-block">+261 34 34 022 89</span>
+                  <span class="caption-text">Contact</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 d-none d-lg-block">
+              <div class="quick-contact-icons d-flex align-items-center">
+                <div class="icon align-self-center mt-3">
+                  <span class="icon-envelope text-primary"></span>
+                </div>
+                <div class="text">
+                  <span class="h4 d-block">contact@mihary.com</span>
+                  <span class="caption-text">Email</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-6 d-block d-lg-none text-right">
+              <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
+                class="icon-menu h3"></span></a>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
+  
+          <div class="container">
+            <div class="d-flex align-items-center">
+  
+              <div class="ms-auto">
+                <nav class="site-navigation position-relative text-right" role="navigation">
+                  <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
+                    <li class="active">
+                      <a href="index.html" class="nav-link text-left">Accueil</a>
+                    </li>
+                    <li>
+                      <a href="about.html" class="nav-link text-left">À propos</a>
+                    </li>
+                    <li>
+                      <a href="services.html" class="nav-link text-left">Nos services</a>
+                    </li>
+                    <li>
+                      <a href="testimonials.html" class="nav-link text-left">Avis</a>
+                    </li>
+                    <li>
+                      <a href="blog.html" class="nav-link text-left">Blog</a>
+                    </li>
+                    <li>
+                      <a href="contact.html" class="nav-link text-left">Contact</a>
+                    </li>
+                  </ul>                                                                                                                                                                                                                                                                                          
+                </nav>
+              </div>
+  
+              <div class="ml-auto">
+                <nav class="site-navigation position-relative text-right" role="navigation">
+                  <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
+                    <li>
+                      <a id="registerLink" href="register.html" class="nav-link text-left">S'inscrire</a>
+                    </li>
+                    <li class="active">
+                      <a id="loginLink" name="loginLink" href="login.html" class="nav-link text-left">Se connecter</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+  
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+
+      <div id="root"></div>
+      <script type="module" src="/src/main.jsx"></script>
+
+    </div>
+
+    <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#116530"/></svg></div>
+
+    <script src="src/js/jquery-3.3.1.min.js"></script>
+    <script src="src/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="src/js/jquery-ui.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/owl.carousel.min.js"></script>
+    <script src="src/js/jquery.stellar.min.js"></script>
+    <script src="src/js/jquery.countdown.min.js"></script>
+    <script src="src/js/bootstrap-datepicker.min.js"></script>
+    <script src="src/js/jquery.easing.1.3.js"></script>
+    <script src="src/js/aos.js"></script>
+    <script src="src/js/jquery.fancybox.min.js"></script>
+    <script src="src/js/jquery.sticky.js"></script>
+    <script src="src/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="src/js/main.js"></script>
+    <script src="src/js/top.js"></script>
+  </body>
+</html>
+
+
+-----------------------------------------------Login--------------------------------------------
+
+<div>
+      <title>Mihary'ket - Authentification</title>
+        <section className="intro">
+          <div className="bg-image h-100" style={{"backgroundImage": "url('/src/images/bg_login.jpg')"}}>
+            <div className="mask d-flex align-items-center h-100" style={{"backgroundColor": "rgba(139, 195, 74, .6)"}}>
+              <div className="container" data-aos="fade-right">
+                <div className="row justify-content-left">
+                  <div className="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div className="card gradient-custom" style={{"borderRadius": "1rem"}}>
+                      <div className="card-body p-5 text-white">
+                          
+                        <div className="text-left" data-aos="fade-right">
+                            <i className="fa-sharp fa-solid fa-arrow-left-long"></i>
+                            <Link to="/" className="text-white fw-bold">Retourner à l'accueil</Link>
+                        </div>
+
+                        <div className="my-md-5">
+
+                          <div className="text-center pt-1" data-aos="fade-right">
+                            <i className="fas fa-solid fa-tractor fa-3x"></i>
+                            <h2 className="fw-bold my-5 text-uppercase">authentification</h2>
+                          </div>
+        
+                          <div className="form-outline form-white mb-4" data-aos="fade-right">
+                            <input type="email" id="typeEmail" className="form-control form-control-lg" required="required" autoFocus="autofocus" />
+                            <label className="form-label" htmlFor="typeEmail">Nom d'utilisateur/Adresse Mail</label>
+                          </div>
+        
+                          <div className="form-outline form-white mb-4" data-aos="fade-right">
+                            <input type="password" id="typePassword" className="form-control form-control-lg" required="required" />
+                            <label className="form-label" htmlFor="typePassword">Mot de Passe</label>
+                          </div>
+        
+                          <div className="form-check" data-aos="fade-right">
+                            {/* <input
+                              className="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="flexCheckDefault" checked
+                            />
+                            <label className="form-check-label" htmlFor="flexCheckDefault">
+                              Se rappeler de moi
+                            </label> */}
+                            <span className="mb-0"><a href="#!" className="forgot text-white fw-bold">Mot de passe oublié?</a></span>
+                          </div>
+        
+                          <div className="text-center py-5" data-aos="fade-right">
+                            <button className="btn btn-light btn-lg btn-rounded px-5" type="submit">se connecter</button>
+                          </div>
+        
+                        </div>
+        
+                        <div className="text-center">
+                          <p className="mb-0">Pas encore inscrit?<a id="registerLink" href="register.html" className="text-white fw-bold"> S'inscrire</a>.</p>
+                        </div>
+        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <Routes>
+          <Route to="*" element={<Home />}/>
+        </Routes>
+      </div >
